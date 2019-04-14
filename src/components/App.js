@@ -49,7 +49,8 @@ class App extends Component {
         </div>
 
         <MovieList movies={this.state.movies} />
-        <div className="page-list">
+
+        <div className="footer-page-list">
           <PageList
             pages={this.state.total_pages}
             page={this.state.page}

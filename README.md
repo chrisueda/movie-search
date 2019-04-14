@@ -25,6 +25,7 @@ I've never had to implement pagination in a React app before so was unsure how t
 - Additional filtering / sorting: Once the title search results have rendered allow a user to sort newest to oldest or highest reviews to lowest reviews, etc.
 - Images: Some thumbnails aren't available so I would substitute a placeholder image when images can't be found.
 - Responsive layout: Add appropriate classes and styles so layout looks appropriate in mobile.
+- Cache API responses so we don't make another call when the same page is loaded.
 
 ---
 
