@@ -49,6 +49,14 @@ class App extends Component {
         </div>
 
         <MovieList movies={this.state.movies} />
+        <div className="page-list">
+          <PageList
+            pages={this.state.total_pages}
+            page={this.state.page}
+            onPageSubmit={this.onTermSubmit}
+            term={this.state.term}
+          />
+        </div>
       </div>
     )
   }

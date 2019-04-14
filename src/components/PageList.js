@@ -1,5 +1,4 @@
 import React from "react"
-import "./PageList.css"
 
 export default function PageList({ page, pages, onPageSubmit, term }) {
   const renderPageList = []
