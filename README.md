@@ -1,15 +1,16 @@
 ## Project
+
 ### How to set up the application and dependencies
-#### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+1. `npm install`
+   1. Installs dependancies.
+2. `npm start`
+   1. Runs the app in the development mode.
+   2. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Challenges
-#### Too many results when typing in the search box.
+
+#### Too many results when typing in the search box
 
 When I started showing search results as the user typed there was a bit of stutter as the page would try to hit the API for every keystroke while the user was typing. I used lodash's debounce method to restrict the number of calls that would be made while the user typed.
 
